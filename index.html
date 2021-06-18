@@ -23,7 +23,26 @@
 -webkit-box-shadow: 13px 10px 25px -5px rgba(255,255,0,0.85);
 -moz-box-shadow: 13px 10px 25px -5px rgba(255,255,0,0.85);
 /*https://cssgenerator.org/box-shadow-css-generator.html*/
-}</style>
+}
+#popup {
+    padding:30px;
+    margin:10px;
+        position:fixed;
+                bottom: 50%;
+                        right: 50%;
+border: solid 3px green; text-align:center;
+display:none;}
+    #popup:target {
+      width: 100%;
+          display:block;
+  height: 100%;
+  overflow: auto;
+/*https://www.w3schools.com/cssref/sel_target.asp*/
+
+    max-height:100px;
+        max-width:200px;
+     background:black;
+/*  https://stackoverflow.com/questions/31217268/center-div-on-the-middle-of-screen*/}</style>
 
 <style>.art-content .art-postcontent-0 .layout-item-0 { color: #B2B2B2; background: #5A9F46; padding: 0px;  }
 .art-content .art-postcontent-0 .layout-item-1 { color: #B2B2B2; background: #4C84A9; padding: 0px;  }
@@ -50,10 +69,10 @@
 
 
 
-<nav class="art-nav">
+<!--<nav class="art-nav">
     <ul class="art-hmenu"><li><a href="home.html" class="active">Home</a></li><li><a href="contact-us.html">Contact Us</a></li></ul> 
     </nav>
-
+-->
                     
 </header>
 <div class="art-sheet clearfix">
@@ -109,8 +128,9 @@
                 <li>Le code court de la Suisse est "CH", et similairement ces domaines du pays (comme .ca ou .co.uk) sont .swiss et (plus populairement) .ch.</li>
                 <li>L'argent utilisé la franc Suisse, la franc WIR (WIR est une banque de la Suisse <sup><a href="https://en.wikipedia.org/wiki/WIR_Bank">[1]</a></sup>), et l'euro WIR</sup></li>
         </ul></p>
-        <p><span style="color:rgb(108, 172, 224);">Aenean sollicitudin imperdiet arcu</span><br>
-         Vitae dignissim est posuere id. Duis placerat justo eu nunc interdum ultrices. Phasellus elit dolor, porttitor id consectetur sit amet, posuere id magna. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <p><span style="color:rgb(108, 172, 224);">L'hymne national de la Suisse (en l'allemand)</span></p>
+            <iframe src="https://www.youtube.com/embed/ZfDpRzN2SBI">Your browser doesn't support iframes. See <a href="https://www.youtube.com/watch?v=ZfDpRzN2SBI">this link</a></iframe>
+        <p>C'est juste moi ou est-qu'il sont comme Happy Birthday ?</p>
         <p style="text-align:right;"><a class="art-button" href="https://en.wikipedia.org/wiki/Switzerland">Regardez encore plus !</a></p></div>
     </div>
     </div>
@@ -132,12 +152,12 @@
     <div class="art-layout-cell layout-item-2" style="width: 50%">
         <p>Copyright © 2011-2012. All Rights Reserved.</p>
     </div><div class="art-layout-cell layout-item-2" style="width: 50%">
-        <p style="text-align: right;"><a href="#">Privacy Policy</a>&nbsp;&nbsp;&nbsp;&nbsp; <a href="#">Terms Of Use</a>&nbsp;&nbsp;&nbsp;&nbsp; <a href="#">About</a></p>
+        <p style="text-align: right;"><a href="#popup">About</a></p>
     </div>
     </div>
 </div>
 </div>
-
+<div id="popup"><p><a href="#" style="float:right;font-size:12px;">x</a>Ce site Web est créé par TheTechRobo pour l'école. Veuillez regardez son site Web (anglais) ? <a href="https://thetechrobo.github.io">thetechrobo.github.io</a></p></div>
     <p class="art-page-footer">
         <span id="art-footnote-links"><a href="http://www.nzso.com/" target="_blank">Web Template</a> created by nzso.</span>
     </p>
