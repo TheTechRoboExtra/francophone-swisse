@@ -1,4 +1,7 @@
 # francophone-swisse
+Good God I spelt the repo name wrong
+
+
 don't even ask
 
 
